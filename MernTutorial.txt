@@ -1,0 +1,108 @@
+"Terminal Commands" : Backend
+-----------------------------------------------------------------------------------------
+
+> Open Terminal
+Ctrl+`
+
+> Creating package.json
+# note: package name should be in lowercase
+npm init -y
+
+> Check files in current directory
+dir
+
+> Clear screen
+cls
+
+> Install express
+npm i express
+
+> Install nodemon globally if not installed yet
+npm install -g nodemon
+
+> Run app.js
+nodemon App.js
+
+> Install mongoDB
+npm install mongodb
+
+> Install mongoose
+npm i mongoose
+
+> Install dotenv
+npm i dotenv
+
+> Install bcrypt.js
+npm i bcryptjs
+
+> Install jsonwebtoken
+npm i jsonwebtoken
+
+
+
+
+"Tutorial"
+-----------------------------------------------------------------------------------------
+
+> Use express.js as web framework and node.js as backend
+> Create App.js
+> Require express
+> Start creating routes
+syntax:     app.get(path, callback)
+
+> Listen app on port 3000
+syntax:     app.listen(port, fat arrow function)
+
+> Use middlewares for adding authentication before accessing a path
+
+> Use mongoDB Atlas as database because it provides database on cloud service
+> Connect mongoDB with our backend
+
+connection string: mongodb+srv://khushdevyogi001:XTMBMOJT5NYuXy7H@mernapp.hzuvydv.mongodb.net/mernstack?retryWrites=true&w=majority
+username: khusdevyogi001
+password: XTMBMOJT5NYuXy7H
+
+> Secure your code by keeping Password, API keys secret with Dotenv
+syntax: dotenv.config({ path: './config.env' });
+syntax: const DB = process.env.DATABASE;
+
+> We can write database connection code in seperate './db/connect.js' file and Require it whenever and wherever we want to use it in our app
+
+> Create user schema and model using node.js express js, mongoDB, mongoose and postman
+> Document schema is a json object that allows you to define the shape and content of Documents and embedded documents in the collection.
+> Create userSchema in './models/userSchema.js'
+
+> User Registration by Post request (using Promise method or Async-await method)
+> Login validation using Post request
+
+> Use bcrypt.js to hash your password
+> Use jsonwebtoken for User Authentication
+> Store JWT Token in Cookie For Authentication
+
+
+
+
+
+"Terminal Commands" : Frontend
+-----------------------------------------------------------------------------------------
+
+> Creating react app
+npx create-react-app <project-name>
+
+> Install bootstrap
+npm i bootstrap
+
+> Install react router dom --version 5.2.0
+npm i react-router-dom@5
+
+
+
+
+"Tutorial"
+-----------------------------------------------------------------------------------------
+
+> Create components in 'Components' folder
+
+> use 'rafce' shorthand to create react arrow funtion export component
+
+> use react router dom to change pages without reloading the page
