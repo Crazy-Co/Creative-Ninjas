@@ -20,7 +20,7 @@ const Login = () => {
 
     const { email, password } = user;
 
-    const res = await fetch("/signin", {
+    const res = await fetch("https://creative-ninjas.onrender.com/signin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
