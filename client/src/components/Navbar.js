@@ -42,7 +42,7 @@ const Navbar = () => {
                             <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item" onClick={(e) => handleActive(e)}>
-                            <Link className="nav-link" to="/about">About</Link>
+                            <Link className="nav-link" to="/resume">Resume</Link>
                         </li>
                         <li className="nav-item" onClick={(e) => handleActive(e)}>
                             <Link className="nav-link" to="/contact">Contact</Link>

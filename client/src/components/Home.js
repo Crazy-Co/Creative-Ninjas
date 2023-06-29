@@ -4,6 +4,7 @@ import hero from '../images/hero.png';
 import video from '../video/Tunnel.mp4';
 import SkillCard from './Skill-Card';
 import ytdl_Img from '../images/ytdl.jpg';
+import ProjectCard from './Project-Card';
 
 const Home = () => {
   return (
@@ -118,13 +119,11 @@ const Home = () => {
           </h1>
         </div>
         <div className="container">
-          <div className="card">
-            <div className="lines"></div>
-            <div className="imgBox">
-              {/* <img src={ytdl_Img} alt="img" /> */}
-            </div>
-            <div className="content"></div>
-          </div>
+          <ProjectCard title="Pixelate" content={'This is an Image editor developed using React.js with features aid to adjust Brightness, Saturation, Grayscale, etc. Edited image can be saved using canvas without losing quality and size.'} link={'hii'} img={ytdl_Img} />
+          
+          <ProjectCard title="BMI Calculator" content={'This is a simple GUI based windows application to calculate BMI using Height (in m) and Weight (in Kg). While developing the app, I explored the way of GUI application development using Visual Studio 2022.'} link={'hii'} img={ytdl_Img} />
+          
+          <ProjectCard title="Care & Feed" content={'This is an NGO for which I have been developing a website using React.js with Login/Logout feature. Razorpay payment gateway is integrated to collect donation.'} link={'hii'} img={ytdl_Img} />
         </div>
       </div>
     </div>
